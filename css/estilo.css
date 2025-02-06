@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Press+Start+2P&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/**/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;/*"Noto Sans", sans-serif;*/
+    color: aliceblue;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../assets/deftones.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#inicio .contenido header{
+    background-color:rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color:  rgb(42, 178, 223);
+}
+
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover{
+    color:  rgb(42, 178, 223);
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+}
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+#inicio .contenido .presentacion h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 25px;
+    color:  rgb(42, 178, 223);
+}
+
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: rgb(42, 178, 223);
+    padding: 28px 32px;
+}
+
+#sobremi{
+    max-width: 1270px;
+    margin: auto;
+    padding: 100px 15px;
+    display: flex;   
+    background-color: black;
+}
+
+#sobremi .contenedor-foto{
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img{
+    padding: 20px;
+    background-color:  rgb(175, 234, 253);
+    
+}
+#sobremi .sobremi h2{
+    font-size: 34px;
+font-weight: bold;
+margin: 20px 0;
+letter-spacing: 2px;
+}
+#sobremi .sobremi h2 span{
+    color:  rgb(42, 178, 223);
+}
+#sobremi .sobremi a{
+    color:  rgb(42, 178, 223);
+}
+
+#sobremi .sobremi{
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color:  rgb(175, 234, 253);
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h3{
+    font-size: 18px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p{
+    font-size: 14px;
+    line-height: 25px;
+    color: aliceblue;
+    margin-bottom: 12px;
+}
+#sobremi .sobremi a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+    color: aliceblue;
+   font-weight: bold;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+#sobremi .sobremi a:hover{
+    background-color:  rgb(42, 178, 223);
+}
+
+#servicios{
+    max-width: 1270px;
+    margin: auto;
+    padding: 100px 15px;
+   text-align: center;
+    background-color: black;
+    
+}
+
+#servicios .titulo-seleccion{
+    text-decoration: underline;
+    text-decoration-color:  rgb(175, 234, 253);
+    text-decoration-thickness: 5px;
+    font-size: 22px;
+}
+
+#servicios .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+#servicios .fila .servicio{
+    max-width: 350px;
+    background-color:  rgb(42, 178, 223);
+    padding: 30px;
+    margin: 0 5px;
+
+    transition: 0.5s;
+}
+#servicios .fila .servicio:hover{
+    box-shadow: 5px 5px 10px rgb(255, 255, 255), -5px -5px 10px  rgb(255, 255, 255);
+    max-width: 360px;
+    padding: 40px;
+}
+
+#servicios .fila .servicio .icono{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  rgb(175, 234, 253);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+#servicios .fila .servicio hr{
+    width: 30%;
+    margin: auto;
+    color:  rgb(175, 234, 253);
+    margin-bottom: 25px;
+}
+
+#servicios .fila .servicio ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#servicios .fila .servicio p{
+    font-size: 14px;
+    line-height: 22px;
+
+}
+
+#skills{
+       background: linear-gradient(#5a9eebcc, rgba(0,16,16,8)), url("../assets/ryuk.jpg");
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       padding: 100px 0;
+       text-align: center;
+    
+}
+
+.contenedor-skills .skill{
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.contenedor-skills .skill .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-skills .skill .lista{
+    display: inline-block;
+    margin-right: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: aliceblue;
+}
+
+.contenedor-skills .skill .barra{
+    background-color: #919191;
+    width: 100%;
+    height: 6px;
+    margin: 10px 0;
+}
+
+.contenedor-skills .skill .barra .barra-progreso1{
+    background-color: aliceblue;
+    width: 40%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+}
+
+@keyframes progreso1{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+.contenedor-skills .skill .barra .barra-progreso2{
+    background-color: aliceblue;
+    width: 1%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+}
+
+@keyframes progreso2{
+    0%{width: 0;}
+    100%{width: 20%;}
+}
+.contenedor-skills .skill .barra .barra-progreso3{
+    background-color: aliceblue;
+    width: 1%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+}
+@keyframes progreso3{
+    0%{width: 0;}
+    100%{width: 40%;}
+}
+.contenedor-skills .skill .barra .barra-progreso4{
+    background-color: aliceblue;
+    width: 10%;
+    height: 6px;
+    animation: progreso4 2s forwards;
+}
+@keyframes progreso4{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+#portafolio{
+    max-width: 1270px;
+    margin: auto;
+    padding: 100px 15px;
+   text-align: center;
+    background-color: black;
+}
+
+#portafolio .titulo-seccion{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color:  rgb(175, 234, 253);
+    text-decoration-thickness: 5px;
+}
+
+#portafolio .fila{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+}
+#portafolio .fila .proyecto{
+border: 1px solid #ffff;
+
+margin: 0 5px;
+max-width:300px;
+ max-height: 280px;
+position: relative;
+overflow: hidden;
+}
+
+#portafolio .fila .proyecto img{
+    width: 100%;
+    height: 100%;
+filter: grayscale(1);
+transition: 0.5s;
+}
+
+#portafolio .fila .proyecto:hover img{
+    filter: grayscale(0);
+}
+
+#portafolio .fila .proyecto .info{
+    position: absolute;
+ left: 0;
+background-color: rgba(0, 0, 0, 0.8);
+color: rgb(0, 39, 73);
+ width: 100%;
+opacity: 0;
+padding: 10px;
+bottom: -40px;
+transition: 0.5s;
+}
+#portafolio .fila .proyecto:hover .info{
+    opacity: 1;
+    bottom: 0;
+}
+
+#contacto{
+    max-width: 1270px;
+    margin: auto;
+    padding: 100px 15px;
+    background-color: black;
+}
+#contacto .titulo-seccion{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color:  rgb(175, 234, 253);
+    text-decoration-thickness: 5px;
+}
+
+#contacto .contenedor-form{
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+#contacto .contenedor-form .fila{
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor-form .mitad{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-form input, #contacto .contenedor-form textarea{
+    padding: 20px;
+    border: none;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+#contacto .contenedor-form .mitad input{
+    width: 48%;
+    background-color: rgb(0, 0, 0);
+}
+
+#contacto .contenedor-form .input-full{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#contacto .btn-enviar{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 20%;
+    border-radius: 30px;
+    }
+    
+    #contacto .btn-enviar:hover{
+        background-color: rgb(42, 178, 223);
+    color: rgb(255, 255, 255);
+    
+    }
+
+    footer{
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 255, 255);
+        text-align: center;
+        padding: 80px 0;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        margin: 5px;
+        font-size: 26px;
+    }
+
+    @media screen and (max-width:800px){
+        #redes{
+            display: none;
+        }
+
+        nav{
+            display: none;
+        }
+
+        nav.responsive{
+            display:block;
+            background-color: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            position: absolute;
+            top: 48px;
+            left: 0;
+            padding: 10px 0;
+        }
+
+        nav.responsive ul{
+            display:block;
+            text-align: center;
+        }
+
+        nav.responsive ul li{
+            margin: 5px 0;
+        }
+
+        #icono-nav{
+            display: block;
+            color: #ffff;
+        }
+
+    }
